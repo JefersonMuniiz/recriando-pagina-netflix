@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NETFLIX CLONE</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+
 </head>
 
 <body>
+    
     <header>
         <div class="container">
             <h2 class="logo">NETFLIX</h2>
@@ -26,25 +31,88 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">Game Of Thrones</h3>
+                <h3 class="titulo">GAME OF THRONES</h3>
                 <p class="descricao">
                     Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias
                     lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra. Num cenário que
                     lembra a Europa medieval, reis, rainhas, cavaleiros e renegados usam todos os meios possíveis em um
                     jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto.</p>
-            </div>
-            <div class="botoes">
-                <button role="button" class="botao">
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    MAIS INFORMAÇÕES
-                </button>
+
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
             </div>
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=strange&jbv=80057281" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-1.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=twd&jbv=70177057" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-2.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=the%20f&jbv=80027042" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-3.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=dark&jbv=80100172" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-4.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=river&jbv=80133311" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-5.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=la%20casa&jbv=80192098" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-6.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=naruto&jbv=70205012" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-7.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=vikin&jbv=70301870" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-8.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=the%20100&jbv=70283264" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-9.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/search?q=the%20w&jbv=80189685" target="_blank">
+                    <img class="box-filme" src="styles/img/mini-10.jpg" alt="">
+                </a>
+            </div>
+        </div>
 
+    </div>
+
+    <script src="https://kit.fontawesome.com/3a36271b40.js" crossorigin="anonymous"></script>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
